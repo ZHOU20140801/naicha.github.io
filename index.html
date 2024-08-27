@@ -14,4 +14,19 @@
 <bode>
 <p>QQ群:995014224</p>
 <p>迷你号:510447852</p>
+<script>
+     function  getD1(){
+         var date=new Date();
+         var d1=date.toLocaleString();
+         document.getElementById("datetime").innerHTML =d1; 
+     }
+ 
+     setInterval("getD1();",1000);
+ 
+</script> 
+</head>
+<body  onload = getD1()>
+<div id="datetime">/div>
+ 
+</body>
   
